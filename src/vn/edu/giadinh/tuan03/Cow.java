@@ -3,6 +3,8 @@ package vn.edu.giadinh.tuan03;
 public class Cow {
 
     double weight;
+    String breed;//giống
+    String color;//màu sắc
 
     //HÀM TẠO
     //developers tạo ra KHÔNG DỂ java compiler tạo ra
@@ -11,8 +13,17 @@ public class Cow {
 
     }
 
-    Cow(int i){
-        weight = i;
+    Cow(double w){
+        weight = w;
     }
     
+    Cow(double i, String br, String cl){
+        weight = i;
+        breed = br;
+        color = cl;
+    }
+
+    void InThongTin(){
+        
+    }
 }
