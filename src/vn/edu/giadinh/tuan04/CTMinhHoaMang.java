@@ -26,6 +26,22 @@ public class CTMinhHoaMang {
         System.out.println("Số phân tử của mảng điểm môn học: " + diemMonHoc.length);
 
         //CÁCH 2
-        String dsTenSinhVien[] = {"Tèo", "Tý", "Tửng"};    
+        String dsTenSinhVien[] = {"Tèo", "Tý", "Tửng"};
+        
+        //dùng vòng lặp để duyệt mảng
+        System.out.println("============== DUYỆT MẢNG ------------------");
+       
+        for(int i = 0; i < diemMonHoc.length; i++){
+            System.out.println(diemMonHoc[i]);
+        }
+        
+        System.out.println("=================== FOR EACH =================");
+        //FOR - EACH
+        for(double diem : diemMonHoc){
+            
+            System.out.println(diem);
+        
+        }
+   
     }
 }
