@@ -23,7 +23,8 @@ public class CTMinhHoaMang {
 
         System.out.println("Mảng điểm môn học: " + Arrays.toString(diemMonHoc));
         
-        
+        System.out.println("Số phân tử của mảng điểm môn học: " + diemMonHoc.length);
+
         //CÁCH 2
         String dsTenSinhVien[] = {"Tèo", "Tý", "Tửng"};    
     }
