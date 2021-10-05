@@ -16,6 +16,8 @@ public class CTMinhHoaMang {
         mangSoNguyen[0] = 2;
         
         //KHAI BÁO CÓ KHỞI TẠO GIÁ TRỊ CHO MẢNG
+
+        //mảng kiểu dữ liệu cơ bản
         double diemMonHoc[] = new double[]{10.5, 5.5, 3.0, 4.5};
         System.out.println("Mảng điểm môn học: " + Arrays.toString(diemMonHoc));
         diemMonHoc[0] = diemMonHoc[1];
@@ -42,6 +44,32 @@ public class CTMinhHoaMang {
             System.out.println(diem);
         
         }
-   
+        
+        //mảng có kiểu dữ liệu tham chiếu đối tượng
+        dog[] danhSachdog = new dog[7];
+
+        dog dog0 = new dog(10, "Đen", "Fido");
+        dog dog1 = new dog(7, "Trắng", "Shiro");
+        dog dog2 = new dog(25, "Hồng", "Lulu");
+        dog dog3 = new dog(4, "Vàng", "Pluto");
+        dog dog4 = new dog(9, "Xanh", "Lucky");
+        dog dog5 = new dog(6, "Trắng đen", "Dark");
+        dog dog6 = new dog(15, "Tím", "Mực");
+
+        danhSachdog[0] = dog0;
+        danhSachdog[1] = dog1;
+        danhSachdog[2] = dog2;
+        danhSachdog[3] = dog3;
+        danhSachdog[4] = dog4;
+        danhSachdog[5] = dog5;
+        danhSachdog[6] = dog6;
+        
+        danhSachdog[0].inThongTin();
+        danhSachdog[1].inThongTin();
+        danhSachdog[2].inThongTin();
+        danhSachdog[3].inThongTin();
+        danhSachdog[4].inThongTin();
+        danhSachdog[5].inThongTin();
+        danhSachdog[6].inThongTin();
     }
 }
