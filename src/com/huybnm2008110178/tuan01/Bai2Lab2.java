@@ -2,7 +2,7 @@ package com.huybnm2008110178.tuan01;
 
 import java.util.Scanner;
 
-public class Bai2Lab2 {
+public class Bai2Lab1{
     public static void main(String[] args){
         int chieudai,chieurong;
         Scanner scanner = new Scanner(System.in);
