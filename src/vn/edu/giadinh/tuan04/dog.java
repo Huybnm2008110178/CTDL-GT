@@ -4,11 +4,11 @@ import javax.print.attribute.Size2DSyntax;
 
 public class dog {
     
-    String name;
+    public String name;
     
-    int size;
+    public int size;
 
-    String color;
+    public String color;
 
     public dog(){}
     
