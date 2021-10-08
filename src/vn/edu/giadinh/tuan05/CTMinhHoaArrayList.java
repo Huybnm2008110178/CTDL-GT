@@ -32,6 +32,16 @@ public class CTMinhHoaArrayList {
 
         System.out.println(bienTCArrayList);
 
+        List<String> lisStrings = new ArrayList<>();
+        //lisStrings.add(1);
+        lisStrings.add("Mr Tèo");
+
+        ArrayList<Student> aStudents = new ArrayList<>();
+        //aStudents.add("Mr Tèo");
+        Student student2 = new Student();
+        aStudents.add(student);
+        aStudents.add(new Student());
+
     }
     
 }
