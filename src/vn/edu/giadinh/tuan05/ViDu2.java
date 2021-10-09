@@ -10,7 +10,7 @@ public class ViDu2 {
         a.add("Phương");
         a.add("Hạnh");
         String s = a.get(2);
-
+        
         System.out.println(a);
     }
     
