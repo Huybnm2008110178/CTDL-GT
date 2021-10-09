@@ -17,15 +17,13 @@ public class Lab1 {
                 System.out.println("Phương trình có vô số nghiệm ");
 
             }
-            else{
+            else
 
                 System.out.println("Phương trình vô nghiệm ");
-            }
 
         }
-        else{
+        else
 
             System.out.println("Phương trình có nghiệm: " + (-b/a));
-        }
     }
 }
