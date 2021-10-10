@@ -10,7 +10,7 @@ public class Lab3{
         int n = scanner.nextInt();
         int []a = new int[n];
         for (int i=0; i<n; i++){
-            System.out.println("Nhập 1 phần tử thứ: " + i);
+            System.out.println("Nhập 1 phần tử thứ " + i);
             a[i] = scanner.nextInt();
         }
         int min = a[0];
