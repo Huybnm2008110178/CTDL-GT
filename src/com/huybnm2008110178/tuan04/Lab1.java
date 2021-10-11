@@ -7,27 +7,25 @@ import java.util.Scanner;
 public class Lab1 {
     public static void main(String[] args){
         
-        Double N, sum = (double) 0;
+        int n;
+        double number, sum = 0;
+        ArrayList<Double> arrlistDouble = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập số danh sách số thực: ");
-        int n = scanner.nextInt();
-        ArrayList<Double> a = new ArrayList<>();
 
-        while(true){
-            Double x = scanner.nextDouble();
-            a.add(x);
+        System.out.println("Nhập số phần tử ArrayList: ");
+        n = scanner.nextInt();
 
-            System.out.println("Nhập thêm số thực: ");
-            if(scanner.nextLine().equals("số thực")){
-                break;
-            }
+        for( int i=0; i<n; i++){
+            System.out.println("Nhập phần tử thứ " + i + ":");
+            number = scanner.nextDouble();
+            arrlistDouble.add(number);
+        }
 
-            for(double b:a){
-                sum += b;
-            }
+        for (double element : arrlistDouble){
+            sum += element;
 
         }
-        System.out.println("Tổng số thực: " + sum);
+        System.out.println("Tổng của các phần tử: " + sum);
     }
     
 }
