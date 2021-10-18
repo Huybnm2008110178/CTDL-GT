@@ -7,7 +7,7 @@ public class SanPham {
         double giamGia;
         float thueNhapKhau;
 
-        SanPham(){
+        public SanPham(){
 
         }
 
@@ -30,6 +30,17 @@ public class SanPham {
             System.out.println("giảm giá: " + giamGia);
             System.out.println("Thuế nhập khẩu: " + thueNhapKhau);
        
+        }
+
+        boolean equals (SanPham other){
+            boolean match = true;
+
+            if((tenSanPham.equals(other.tenSanPham)) && donGia == other.donGia){
+                match = true;
+
+            }else match = false;
+
+            return match;
         }
 
     }
