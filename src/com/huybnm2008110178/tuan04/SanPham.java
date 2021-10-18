@@ -12,7 +12,7 @@ public class SanPham {
         }
 
        /**
-        * @param tenShanPham
+        * @param tenSanPham
         * @param donGia
         * @param giamGia
         * @param thueNhapKhau
