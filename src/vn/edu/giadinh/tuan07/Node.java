@@ -12,6 +12,7 @@ public class Node {
 
     public Node(int d){
         data = d;
+        next = null;
     }
 
     public Node(int d, Node n){
