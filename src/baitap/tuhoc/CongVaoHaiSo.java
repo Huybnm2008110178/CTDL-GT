@@ -6,6 +6,7 @@ public class CongVaoHaiSo {
         int sum = num1 + num2;
         
         System.out.println("Tổng của 2 số: " + sum);
+        
     }
     
 }

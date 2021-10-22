@@ -15,6 +15,7 @@ public class CongHaiSoScanner {
         sum = num1 + num2;
 
         System.out.println("Tổng của hai số: " + sum);
+        
     }
     
 }
