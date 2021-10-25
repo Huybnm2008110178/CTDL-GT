@@ -37,7 +37,7 @@ public class QueueDemoProgram {
 
         System.out.println(queue);
 
-        //Cài đặt Linked List
+        //Cài đặt Linked List,Queue,book
               //Thêm 1 phần tử vào cuối
               //Lấy 1 phần tử đầu
               //Xóa 1 phần tử đầu
