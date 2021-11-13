@@ -1,4 +1,4 @@
-package com.huybnm2008110178.tuan5;
+package com.huybnm2008110178.tuan05;
 
 public class sinhvien {
     String hoTen;
